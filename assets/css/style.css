@@ -85,9 +85,9 @@
   --secondary-color: #666;
   --secondary-color-2: #777;
   --social-color-1: #3b5999;
-  --social-color-2: #55acee;
+  --social-color-2: #333333;
   --social-color-3: #dd4b39;
-  --social-color-4: #00b489;
+  --social-color-4: #c52cbd;
   --white-color: #ffffff;
   --primary-t-color: #222;
   --primary-p-color: #565656;
@@ -717,15 +717,15 @@ img {
   background-color: var(--social-color-1) !important;
 }
 
-.social-icons > a.twitter {
+.social-icons > a.linkedin {
   background-color: var(--social-color-2) !important;
 }
 
-.social-icons > a.google-plus {
+.social-icons > a.youtube {
   background-color: var(--social-color-3) !important;
 }
 
-.social-icons > a.vine {
+.social-icons > a.instagram {
   background-color: var(--social-color-4) !important;
 }
 
@@ -2427,13 +2427,18 @@ img {
   color: var(--white-color);
 }
 
-.single-blog-details .blog-content .meta-info .blog-share .social-icons > a.twitter:hover {
+.single-blog-details .blog-content .meta-info .blog-share .social-icons > a.linkedin:hover {
   background-color: var(--social-color-2) !important;
   color: var(--white-color);
 }
 
-.single-blog-details .blog-content .meta-info .blog-share .social-icons > a.google-plus:hover {
+.single-blog-details .blog-content .meta-info .blog-share .social-icons > a.youtube:hover {
   background-color: var(--social-color-3) !important;
+  color: var(--white-color);
+}
+
+.single-blog-details .blog-content .meta-info .blog-share .social-icons > a.instagram:hover {
+  background-color: var(--social-color-4) !important;
   color: var(--white-color);
 }
 
